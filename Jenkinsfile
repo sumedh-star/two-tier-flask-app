@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-            mkdir cool
+            sh "mkdir cool"
            echo "webhook connected successfully"
             }
             
